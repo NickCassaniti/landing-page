@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+.nav {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 8px;
+}
+
+    .logo {
+        height: 48px;
+    }
+
+    .header-links {
+        display: flex;
+        gap: 24px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+    .header-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 360px;
+        gap: 6px;
+    }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .website-description {
+            font-size: 18px;
+            color: white;
+        }
+        
+        .sign-up-top {
+            background-color: #3882F6;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 24px;
+            padding-right: 24px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+    .header-image {
+        max-width: 360px;
+    }
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 68px;
+    gap: 16px;
+}
+
+    h2 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .tiles-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 60px;
+    }
+
+        .tile {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-width: 100px;
+            padding: 0;
+        }
+
+            .tile-image {
+                height: 100px;
+                width: 100px;
+                border: 3px solid #3882F6;
+                border-radius: 10px;
+            }
+
+            .tile-text {
+                font-size: 11px;
+                text-align: center;
+            }
+
+
+
+.quote-container {  /* I could have set the size of this flexbox and centered content, instead of using padding */
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-left: 160px;
+    padding-right: 160px;
+    flex-wrap: wrap;
+}
+
+    .quote-container h3 {
+        color: #1F2937;
+        font-size: 36px;
+        font-weight: 200;
+    }
+
+    .quote-author {
+        display: flex;
+        font-weight: 600;
+        align-self: flex-end;
+    }
+
+
+
+.sign-up-container {
+    display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+    .sign-up-content {
+        display: flex;
+        flex-grow: 1;
+        background-color: #3882F6;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 6px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+        .sign-up-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .top-line {
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .bottom-line {
+                color: white;
+                font-size: 11px;
+            }
+
+        .sign-up-bottom {
+            background-color: #3882F6;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 24px;
+            padding-right: 24px;
+            border-radius: 8px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 100;
+}
